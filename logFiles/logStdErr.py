@@ -5,15 +5,15 @@ import pjTkInter as tk
 import traceback
 class logStdErrClass:
   def __init__(self):
-    self.bundleAppPath="/private/var/containers/Bundle/Application/88B69EC0-89D0-419D-85AB-AD348C69C290/PeterJohn-iphoneos.app"
-    self.bundlePyResPath="/private/var/containers/Bundle/Application/88B69EC0-89D0-419D-85AB-AD348C69C290/PeterJohn-iphoneos.app/python-resources"
-    self.sandBoxDocumentsPath="/var/mobile/Containers/Data/Application/E129F9B0-3E49-4E0B-A3AA-E63D4FCF8768/Documents"
-    self.sandBoxProjDirPath="/var/mobile/Containers/Data/Application/E129F9B0-3E49-4E0B-A3AA-E63D4FCF8768/Documents/s005LocalVariableSquash"
-    os.makedirs("/var/mobile/Containers/Data/Application/E129F9B0-3E49-4E0B-A3AA-E63D4FCF8768/Documents/s005LocalVariableSquash/logFiles", exist_ok=True)
-    self.errFilePath="/var/mobile/Containers/Data/Application/E129F9B0-3E49-4E0B-A3AA-E63D4FCF8768/Documents/s005LocalVariableSquash/logFiles/logStdErr.txt"
-    self.outFilePath="/var/mobile/Containers/Data/Application/E129F9B0-3E49-4E0B-A3AA-E63D4FCF8768/Documents/s005LocalVariableSquash/logFiles/logStdOut.txt"
-    self.inFilePath="/var/mobile/Containers/Data/Application/E129F9B0-3E49-4E0B-A3AA-E63D4FCF8768/Documents/s005LocalVariableSquash/logFiles/logStdIn.txt"
-    self.clHistoryFilePath="/var/mobile/Containers/Data/Application/E129F9B0-3E49-4E0B-A3AA-E63D4FCF8768/Documents/s005LocalVariableSquash/logFiles/logCommandLineHistory.txt"
+    self.bundleAppPath="/private/var/containers/Bundle/Application/F3365FCE-380E-4298-B90D-CB797814224A/PeterJohn-iphoneos.app"
+    self.bundlePyResPath="/private/var/containers/Bundle/Application/F3365FCE-380E-4298-B90D-CB797814224A/PeterJohn-iphoneos.app/python-resources"
+    self.sandBoxDocumentsPath="/var/mobile/Containers/Data/Application/E645E85A-F9A8-48A9-8721-D5FB78388E36/Documents"
+    self.sandBoxProjDirPath="/var/mobile/Containers/Data/Application/E645E85A-F9A8-48A9-8721-D5FB78388E36/Documents/s005LocalVariableSquash"
+    os.makedirs("/var/mobile/Containers/Data/Application/E645E85A-F9A8-48A9-8721-D5FB78388E36/Documents/s005LocalVariableSquash/logFiles", exist_ok=True)
+    self.errFilePath="/var/mobile/Containers/Data/Application/E645E85A-F9A8-48A9-8721-D5FB78388E36/Documents/s005LocalVariableSquash/logFiles/logStdErr.txt"
+    self.outFilePath="/var/mobile/Containers/Data/Application/E645E85A-F9A8-48A9-8721-D5FB78388E36/Documents/s005LocalVariableSquash/logFiles/logStdOut.txt"
+    self.inFilePath="/var/mobile/Containers/Data/Application/E645E85A-F9A8-48A9-8721-D5FB78388E36/Documents/s005LocalVariableSquash/logFiles/logStdIn.txt"
+    self.clHistoryFilePath="/var/mobile/Containers/Data/Application/E645E85A-F9A8-48A9-8721-D5FB78388E36/Documents/s005LocalVariableSquash/logFiles/logCommandLineHistory.txt"
     pythonVersionDir="python3.11"
     self.sitePackagesNumPyPyCacheDirPath=self.sandBoxDocumentsPath + "/usrLocal/lib/" + pythonVersionDir + "site-packages/numpy/__pycache__"
     try :
@@ -24,14 +24,14 @@ class logStdErrClass:
       self.printExc( e )
 ####
   def setProjectName(self,projectName):
-    self.bundleAppPath="/private/var/containers/Bundle/Application/88B69EC0-89D0-419D-85AB-AD348C69C290/PeterJohn-iphoneos.app"
-    self.bundlePyResPath="/private/var/containers/Bundle/Application/88B69EC0-89D0-419D-85AB-AD348C69C290/PeterJohn-iphoneos.app/python-resources"
-    self.sandBoxDocumentsPath="/var/mobile/Containers/Data/Application/E129F9B0-3E49-4E0B-A3AA-E63D4FCF8768/Documents"
+    self.bundleAppPath="/private/var/containers/Bundle/Application/F3365FCE-380E-4298-B90D-CB797814224A/PeterJohn-iphoneos.app"
+    self.bundlePyResPath="/private/var/containers/Bundle/Application/F3365FCE-380E-4298-B90D-CB797814224A/PeterJohn-iphoneos.app/python-resources"
+    self.sandBoxDocumentsPath="/var/mobile/Containers/Data/Application/E645E85A-F9A8-48A9-8721-D5FB78388E36/Documents"
     self.sandBoxProjDirPath=self.sandBoxDocumentsPath + '/' + projectName
-    self.errFilePath=="/var/mobile/Containers/Data/Application/E129F9B0-3E49-4E0B-A3AA-E63D4FCF8768/Documents/s005LocalVariableSquash/logFiles/logStdErr.txt"
-    self.outFilePath="/var/mobile/Containers/Data/Application/E129F9B0-3E49-4E0B-A3AA-E63D4FCF8768/Documents/s005LocalVariableSquash/logFiles/logStdOut.txt"
-    self.inFilePath="/var/mobile/Containers/Data/Application/E129F9B0-3E49-4E0B-A3AA-E63D4FCF8768/Documents/s005LocalVariableSquash/logFiles/logStdIn.txt"
-    self.clHistoryFilePath="/var/mobile/Containers/Data/Application/E129F9B0-3E49-4E0B-A3AA-E63D4FCF8768/Documents/s005LocalVariableSquash/logFiles/logCommandLineHistory.txt"
+    self.errFilePath=="/var/mobile/Containers/Data/Application/E645E85A-F9A8-48A9-8721-D5FB78388E36/Documents/s005LocalVariableSquash/logFiles/logStdErr.txt"
+    self.outFilePath="/var/mobile/Containers/Data/Application/E645E85A-F9A8-48A9-8721-D5FB78388E36/Documents/s005LocalVariableSquash/logFiles/logStdOut.txt"
+    self.inFilePath="/var/mobile/Containers/Data/Application/E645E85A-F9A8-48A9-8721-D5FB78388E36/Documents/s005LocalVariableSquash/logFiles/logStdIn.txt"
+    self.clHistoryFilePath="/var/mobile/Containers/Data/Application/E645E85A-F9A8-48A9-8721-D5FB78388E36/Documents/s005LocalVariableSquash/logFiles/logCommandLineHistory.txt"
 ####
   def __del__(self):
     del self.bundleAppPath

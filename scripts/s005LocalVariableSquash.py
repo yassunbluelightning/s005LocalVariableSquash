@@ -156,7 +156,7 @@ self.racketPosX,0,65000,
 ####from LocalVariableSquashClass import *
 # Initialize.
 sq = LocalVariableSquashClass()
-sq.speed = 0.1
+sq.speed = 0.125
 # MainLoop.
 ####
 tk.bindButtonFunction("s005LocalVariableSquash:s005LocalVariableSquash.sq.click")
