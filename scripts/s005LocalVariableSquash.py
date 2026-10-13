@@ -53,7 +53,9 @@ class LocalVariableSquashClass:
     tk.createCircle("Ball1",
 self.ballSize,1,
 self.ballPosX,self.ballPosY,65000,
-255,0,0,255)
+0,0,0,255)
+    tk.setFillColr("Ball1",
+255,0,0,255)##'tk.setFillColor()' Can be Used For 'PowerUp';YassunAdd;2026-1013;
 
   def drawBall(self):
     # draws Ball.
