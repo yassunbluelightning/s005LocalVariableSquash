@@ -54,7 +54,7 @@ class LocalVariableSquashClass:
 self.ballSize,1,
 self.ballPosX,self.ballPosY,65000,
 1,2,3,255)
-    tk.setFillColr("Ball1",
+    tk.setFillColor("Ball1",
 255,0,0,255)##RED;;'tk.setFillColor()' Can be Used For 'PowerUp';YassunAdd;2026-1013;
 
   def drawBall(self):
@@ -67,7 +67,7 @@ self.ballPosX,self.ballPosY,65000,
 self.racketSize,10, 1,
 self.racketPosX,0,65000,
 1,2,3,255)
-    tk.setFillColr("Racket1",
+    tk.setFillColo by r("Racket1",
 255,255,0,255)##YELLOW;;'tk.setFillColor()' Can be Used For 'PowerUp';YassunAdd;2026-1013;
 
   def drawRacket(self):
@@ -163,6 +163,9 @@ sq = LocalVariableSquashClass()
 sq.speed = 0.125
 # MainLoop.
 ####
+####bindFunction String Rules;
+####1of2) bindFunction("projectName:scriptFileNameWithoutExtension.functionName") ##if is function;;
+####2of2) bindFunction("projectName:scriptFileNameWithoutExtension.instanceName.methodName") ##if it is instance's method;
 tk.bindButtonFunction("s005LocalVariableSquash:s005LocalVariableSquash.sq.click")
 
 tk.bindMotionFunction("s005LocalVariableSquash:s005LocalVariableSquash.sq.motion")
